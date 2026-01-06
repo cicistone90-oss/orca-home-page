@@ -4,6 +4,9 @@ import Hero from '../components/Hero.jsx';
 import TrustedBy from '../components/TrustedBy.jsx';
 import Services from '../components/Services.jsx';
 import Features from '../components/Features.jsx';
+import PayShieldFeatures from '../components/PayShieldFeatures.jsx';
+import PaymentSolutions from '../components/PaymentSolutions.jsx';
+import PaymentMethods from '../components/PaymentMethods.jsx';
 import Products from '../components/Products.jsx';
 import Industries from '../components/Industries.jsx';
 import KeyFeatures from '../components/KeyFeatures.jsx';
@@ -18,6 +21,9 @@ const HomePage = () => {
       <TrustedBy />
       <Services />
       <Features />
+      <PayShieldFeatures />
+      <PaymentSolutions />
+      <PaymentMethods />
       <Products />
       <Industries />
       <KeyFeatures />
