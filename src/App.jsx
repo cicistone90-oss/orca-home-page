@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage.jsx';
 import InfoPage from './pages/InfoPage.jsx';
 import PrivacyPolicy from './pages/PrivacyPolicy.jsx';
