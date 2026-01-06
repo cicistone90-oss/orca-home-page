@@ -12,11 +12,11 @@ const Industries = () => {
       icon: '🍷',
       description: 'Alcoholic beverages and spirits'
     },
-    {
-      title: 'CBD',
-      icon: '🌿',
-      description: 'CBD and hemp-derived products'
-    },
+    // {
+    //   title: 'CBD',
+    //   icon: '🌿',
+    //   description: 'CBD and hemp-derived products'
+    // },
     {
       title: 'Continuity/Subscription',
       icon: '📊',
@@ -32,11 +32,11 @@ const Industries = () => {
       icon: '🏢',
       description: 'E-commerce dropshipping businesses'
     },
-    {
-      title: 'Guns & Firearms',
-      icon: '🔒',
-      description: 'Firearms and related accessories'
-    },
+    // {
+    //   title: 'Guns & Firearms',
+    //   icon: '🔒',
+    //   description: 'Firearms and related accessories'
+    // },
     {
       title: 'Nutraceuticals & Supplements',
       icon: '💊',

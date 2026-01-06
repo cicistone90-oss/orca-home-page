@@ -96,14 +96,14 @@ const PaymentMethods = () => {
               </div>
 
               {/* Learn More Button */}
-              <div className="mt-8 pt-6 border-t border-gray-100">
+              {/* <div className="mt-8 pt-6 border-t border-gray-100">
                 <button className="text-blue-600 hover:text-blue-700 font-medium flex items-center transition-colors duration-200">
                   Learn More
                   <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
                 </button>
-              </div>
+              </div> */}
             </div>
           ))}
         </div>

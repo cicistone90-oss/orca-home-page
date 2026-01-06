@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const PayShieldFeatures = () => {
   const features = [
@@ -46,11 +47,11 @@ const PayShieldFeatures = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8">
           {features.map((feature, index) => (
             <div
               key={index}
-              className={`relative overflow-hidden rounded-2xl bg-gradient-to-br ${feature.bgGradient} p-8 text-white shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2`}
+              className={`relative overflow-hidden rounded-2xl bg-gradient-to-br ${feature.bgGradient} p-6 md:p-8 text-white shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2`}
             >
               {/* Background Pattern */}
               <div className="absolute inset-0 opacity-10">
@@ -60,15 +61,15 @@ const PayShieldFeatures = () => {
               
               {/* Content */}
               <div className="relative z-10">
-                <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-xl bg-white/20 backdrop-blur-sm">
+                <div className="mb-4 md:mb-6 inline-flex h-12 w-12 md:h-16 md:w-16 items-center justify-center rounded-xl bg-white/20 backdrop-blur-sm">
                   {feature.icon}
                 </div>
                 
-                <h3 className="text-2xl font-bold mb-4">
+                <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4">
                   {feature.title}
                 </h3>
                 
-                <p className="text-white/90 leading-relaxed">
+                <p className="text-white/90 leading-relaxed text-sm md:text-base">
                   {feature.description}
                 </p>
               </div>
@@ -85,6 +86,12 @@ const PayShieldFeatures = () => {
             <p className="text-gray-600 mb-6">
               Join thousands of businesses that trust OrcaPay to reduce chargebacks and secure their payments.
             </p>
+            <Link 
+              to="/contact" 
+              className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-lg font-medium hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl inline-block"
+            >
+              Contact Us
+            </Link>
           </div>
         </div>
       </div>

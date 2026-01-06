@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar.jsx';
-import Hero from '../components/Hero.jsx';
+import HeroSlider from '../components/HeroSlider.jsx';
 import TrustedBy from '../components/TrustedBy.jsx';
 import Services from '../components/Services.jsx';
 import Features from '../components/Features.jsx';
@@ -17,7 +17,7 @@ const HomePage = () => {
   return (
     <div className="min-h-screen">
       <Navbar />
-      <Hero />
+      <HeroSlider />
       <TrustedBy />
       <Services />
       <Features />
