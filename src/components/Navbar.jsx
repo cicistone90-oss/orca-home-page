@@ -42,10 +42,10 @@ const Navbar = () => {
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-cyan-400 to-blue-400 group-hover:w-full transition-all duration-300"></span>
               </Link>
             ))}
-            <a href="/contact" className="bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-500 text-white px-6 py-2 rounded-lg font-medium hover:from-blue-700 hover:via-purple-700 hover:to-cyan-600 transition-all duration-300 shadow-lg hover:shadow-xl hover:shadow-cyan-500/25 relative overflow-hidden group">
+            <Link to="/contact" className="bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-500 text-white px-6 py-2 rounded-lg font-medium hover:from-blue-700 hover:via-purple-700 hover:to-cyan-600 transition-all duration-300 shadow-lg hover:shadow-xl hover:shadow-cyan-500/25 relative overflow-hidden group">
               <span className="relative z-10">Contact Us</span>
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-600 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            </a>
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -82,9 +82,9 @@ const Navbar = () => {
                   {item.name}
                 </Link>
               ))}
-              <a href="/contact" className="w-full mt-4 bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-500 text-white px-6 py-2 rounded-lg font-medium hover:from-blue-700 hover:via-purple-700 hover:to-cyan-600 transition-all duration-300 shadow-lg block text-center">
+              <Link to="/contact" className="w-full mt-4 bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-500 text-white px-6 py-2 rounded-lg font-medium hover:from-blue-700 hover:via-purple-700 hover:to-cyan-600 transition-all duration-300 shadow-lg block text-center">
                 Contact Us
-              </a>
+              </Link>
             </div>
           </div>
         )}
