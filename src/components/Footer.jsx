@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../logo.png';
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <img src="/logo.png" alt="OrcaPay Logo" className="h-10 w-auto" />
+              <img src={logo} alt="OrcaPay Logo" className="h-10 w-auto" />
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
               Reduce Chargebacks, Increase Revenue. 

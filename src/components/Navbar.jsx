@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import logo from '../logo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +24,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
             <div className="relative">
-              <img src="/logo.png" alt="OrcaPay Logo" className="h-16 w-auto transition-transform duration-300 group-hover:scale-110" />
+              <img src={logo} alt="OrcaPay Logo" className="h-16 w-auto transition-transform duration-300 group-hover:scale-110" />
               <div className="absolute inset-0 bg-cyan-400/20 rounded-full blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </div>
           </Link>

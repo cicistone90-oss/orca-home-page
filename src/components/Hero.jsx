@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../logo.png';
 
 const Hero = () => {
   return (
@@ -53,7 +54,7 @@ const Hero = () => {
                 <div className="relative z-10 w-full h-full flex items-center justify-center overflow-hidden rounded-full border-2 border-cyan-500/30">
                   <div className="w-full h-full relative">
                     <img 
-                      src="/logo.png" 
+                      src={logo} 
                       alt="OrcaPay Logo" 
                       className="w-full h-full object-contain transform scale-150 translate-x-[38%]"
                       style={{
