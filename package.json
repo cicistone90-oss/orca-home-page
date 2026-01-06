@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "homepage": "https://yuqinshi.github.io/orca-home-page",
+  "homepage": "https://ciccistone90-oss.github.io/orca-home-page",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
