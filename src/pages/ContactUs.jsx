@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.jsx';
-import emailjs from '@emailjs/browser';
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -14,6 +13,9 @@ const ContactUs = () => {
   
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null);
+
+  // Formspree endpoint - replace with your actual Formspree form ID
+  const FORMSPREE_ENDPOINT = "https://formspree.io/f/mrebwdag";
 
   const handleChange = (e) => {
     setFormData({
@@ -28,36 +30,34 @@ const ContactUs = () => {
     setSubmitStatus(null);
 
     try {
-      // EmailJS configuration
-      const serviceId = 'service_orcapay'; // You'll need to set this up in EmailJS
-      const templateId = 'template_contact'; // You'll need to create this template
-      const publicKey = 'YOUR_PUBLIC_KEY'; // You'll need to get this from EmailJS
-
-      const templateParams = {
-        to_email: 'grace.shi1226@gmail.com',
-        from_name: formData.name,
-        from_email: formData.email,
-        company: formData.company,
-        subject: formData.subject,
-        message: formData.message,
-        reply_to: formData.email
-      };
-
-      // For now, we'll simulate the email sending since EmailJS requires setup
-      // Replace this with actual EmailJS call once configured
-      await new Promise(resolve => setTimeout(resolve, 1000)); // Simulate API call
-      
-      // Actual EmailJS call (uncomment when configured):
-      // await emailjs.send(serviceId, templateId, templateParams, publicKey);
-      
-      setSubmitStatus('success');
-      setFormData({
-        name: '',
-        email: '',
-        company: '',
-        subject: '',
-        message: ''
+      const response = await fetch(FORMSPREE_ENDPOINT, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          company: formData.company,
+          subject: formData.subject,
+          message: formData.message,
+          _replyto: formData.email, // Formspree will use this as reply-to
+          _subject: `New contact form submission: ${formData.subject}`, // Email subject
+        }),
       });
+
+      if (response.ok) {
+        setSubmitStatus('success');
+        setFormData({
+          name: '',
+          email: '',
+          company: '',
+          subject: '',
+          message: ''
+        });
+      } else {
+        throw new Error('Failed to submit form');
+      }
       
     } catch (error) {
       console.error('Error sending email:', error);
