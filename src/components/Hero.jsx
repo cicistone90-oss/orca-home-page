@@ -32,14 +32,14 @@ const Hero = () => {
               increase revenue, and protect your business from fraud with 
               <span className="text-cyan-400 font-semibold"> AI-powered technology</span>
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            {/* <div className="flex flex-col sm:flex-row gap-4">
               <button className="btn btn-primary text-lg px-8 py-4">
                 Get Started
               </button>
               <button className="btn btn-secondary text-lg px-8 py-4">
                 Learn More
               </button>
-            </div>
+            </div> */}
           </div>
 
           {/* Right Visual - Logo Left Half */}
