@@ -66,7 +66,7 @@ const Industries = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mb-12">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
           {industries.map((industry, index) => (
             <div
               key={index}
@@ -85,12 +85,6 @@ const Industries = () => {
               </div>
             </div>
           ))}
-        </div>
-
-        <div className="text-center">
-          <button className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-lg font-semibold hover:from-orange-600 hover:to-orange-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
-            See All Industries
-          </button>
         </div>
       </div>
     </section>
