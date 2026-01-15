@@ -114,9 +114,11 @@ const AboutPage = () => {
               <div className="relative bg-white p-12 border-2 border-gray-900 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] group-hover:shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] transition-all duration-300 h-full flex flex-col">
                 <div className="flex-1 flex flex-col">
                   <div className="mb-8">
-                    <h3 className="text-5xl font-bold text-gray-900 mb-2 tracking-tight">Henry Xu</h3>
-                    <p className="text-xl text-gray-600 font-medium mb-3">Founder</p>
-                    <div className="w-24 h-1 bg-gray-900"></div>
+                    <h3 className="text-5xl font-bold text-gray-900 mb-3 tracking-tight">Henry Xu</h3>
+                    <div className="w-24 h-1 bg-gray-900 mb-4"></div>
+                    <div className="inline-block bg-blue-600 text-white px-4 py-1.5 font-semibold text-sm tracking-wide uppercase">
+                      Founder
+                    </div>
                   </div>
                   <div className="text-gray-800 leading-relaxed text-base space-y-5 flex-1 text-left font-serif">
                     <p className="indent-8">
@@ -142,9 +144,11 @@ const AboutPage = () => {
               <div className="relative bg-white p-12 border-2 border-gray-900 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] group-hover:shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] transition-all duration-300 h-full flex flex-col">
                 <div className="flex-1 flex flex-col">
                   <div className="mb-8">
-                    <h3 className="text-5xl font-bold text-gray-900 mb-2 tracking-tight">Bruce Parker</h3>
-                    <p className="text-xl text-gray-600 font-medium mb-3">Lifetime Advisor</p>
-                    <div className="w-24 h-1 bg-gray-900"></div>
+                    <h3 className="text-5xl font-bold text-gray-900 mb-3 tracking-tight">Bruce Parker</h3>
+                    <div className="w-24 h-1 bg-gray-900 mb-4"></div>
+                    <div className="inline-block bg-purple-600 text-white px-4 py-1.5 font-semibold text-sm tracking-wide uppercase">
+                      Lifetime Advisor
+                    </div>
                   </div>
                   <div className="text-gray-800 leading-relaxed text-base space-y-5 flex-1 text-left font-serif">
                     <p className="indent-8">
