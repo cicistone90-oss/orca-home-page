@@ -22,6 +22,11 @@ export default {
       },
       fontFamily: {
         'inter': ['Inter', 'sans-serif'],
+        'display': ['Playfair Display', 'serif'],
+        'heading': ['Space Grotesk', 'sans-serif'],
+        'body': ['Inter', 'sans-serif'],
+        'mono': ['JetBrains Mono', 'monospace'],
+        'modern': ['Poppins', 'sans-serif'],
       },
       width: {
         '128': '32rem',

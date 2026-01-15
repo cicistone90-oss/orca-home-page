@@ -4,7 +4,7 @@ import HeroSlider from '../components/HeroSlider.jsx';
 import TrustedBy from '../components/TrustedBy.jsx';
 import Services from '../components/Services.jsx';
 import Features from '../components/Features.jsx';
-import PayShieldFeatures from '../components/PayShieldFeatures.jsx';
+import OrcaFeatures from '../components/OrcaFeatures.jsx';
 import PaymentSolutions from '../components/PaymentSolutions.jsx';
 import PaymentMethods from '../components/PaymentMethods.jsx';
 import Products from '../components/Products.jsx';
@@ -21,7 +21,7 @@ const HomePage = () => {
       <TrustedBy />
       <Services />
       <Features />
-      <PayShieldFeatures />
+      <OrcaFeatures />
       <PaymentSolutions />
       <PaymentMethods />
       <Products />

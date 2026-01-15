@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const PayShieldFeatures = () => {
+const OrcaFeatures = () => {
   const features = [
     {
       icon: (
@@ -88,7 +88,7 @@ const PayShieldFeatures = () => {
             </p>
             <Link 
               to="/contact" 
-              className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-lg font-medium hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl inline-block"
+              className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 font-medium hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl inline-block"
             >
               Contact Us
             </Link>
@@ -99,4 +99,4 @@ const PayShieldFeatures = () => {
   );
 };
 
-export default PayShieldFeatures;
+export default OrcaFeatures;
