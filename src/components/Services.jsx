@@ -30,7 +30,7 @@ const Services = () => {
     {
       title: '24/7 Support',
       description: 'Round-the-clock customer support and technical assistance',
-      icon: '🎧'
+      icon: '📞'
     }
   ];
 
@@ -38,13 +38,13 @@ const Services = () => {
     <section id="services" className="py-20 bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <div className="inline-block px-4 py-2 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 border border-cyan-500/30 rounded-full text-cyan-400 text-sm font-medium backdrop-blur-sm mb-4">
+          <div className="inline-block px-4 py-2 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 border border-cyan-500/30 rounded-full text-cyan-400 text-sm font-medium backdrop-blur-sm mb-6">
             Our Services
           </div>
-          <h2 className="text-4xl font-bold text-white mb-4">
+          <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-6">
             Products & Services We Offer
           </h2>
-          <p className="text-xl text-gray-400 max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto font-light leading-relaxed">
             Comprehensive payment solutions designed to grow your business
           </p>
         </div>
@@ -59,10 +59,10 @@ const Services = () => {
               }}
             >
               <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">{service.icon}</div>
-              <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-cyan-400 transition-colors duration-300">
+              <h3 className="text-xl md:text-2xl font-bold text-white mb-4 group-hover:text-cyan-400 transition-colors duration-300">
                 {service.title}
               </h3>
-              <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors duration-300">
+              <p className="text-base md:text-lg text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors duration-300">
                 {service.description}
               </p>
               <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-cyan-500 to-blue-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left rounded-full"></div>

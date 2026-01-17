@@ -23,12 +23,7 @@ const WhiteLabelSolutionsPage = () => {
               services under your own brand. Build your payment business with our proven 
               infrastructure, advanced features, and dedicated support.
             </p>
-            <Link 
-              to="/contact" 
-              className="inline-block bg-blue-600 text-white px-8 py-3 font-medium hover:bg-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl"
-            >
-              GET STARTED
-            </Link>
+
           </div>
         </div>
       </section>
@@ -49,39 +44,39 @@ const WhiteLabelSolutionsPage = () => {
               </p>
             </div>
             <div className="space-y-6">
-              <div className="flex items-start gap-4">
-                <div className="bg-blue-600 p-3 flex-shrink-0">
-                  <span className="text-2xl">⚙️</span>
+              <div className="flex items-center gap-6 mb-6">
+                <div className="w-16 h-16 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <span className="text-3xl">⚙️</span>
                 </div>
                 <div>
                   <h3 className="text-xl font-heading font-semibold mb-2">Fully Customizable</h3>
-                  <p className="text-gray-400">
+                  <p className="text-gray-400 leading-relaxed">
                     Complete customization of the platform interface, branding, and user experience 
                     to match your company's identity and requirements.
                   </p>
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
-                <div className="bg-green-600 p-3 flex-shrink-0">
-                  <span className="text-2xl">🎯</span>
+              <div className="flex items-center gap-6 mb-6">
+                <div className="w-16 h-16 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <span className="text-3xl">🎯</span>
                 </div>
                 <div>
                   <h3 className="text-xl font-heading font-semibold mb-2">Full Control</h3>
-                  <p className="text-gray-400">
+                  <p className="text-gray-400 leading-relaxed">
                     Maintain complete control over your merchant relationships, pricing, 
                     and business operations while leveraging our technology infrastructure.
                   </p>
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
-                <div className="bg-purple-600 p-3 flex-shrink-0">
-                  <span className="text-2xl">👥</span>
+              <div className="flex items-center gap-6">
+                <div className="w-16 h-16 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <span className="text-3xl">👥</span>
                 </div>
                 <div>
                   <h3 className="text-xl font-heading font-semibold mb-2">Leverage Our Expertise</h3>
-                  <p className="text-gray-400">
+                  <p className="text-gray-400 leading-relaxed">
                     Benefit from our years of experience in payment processing, compliance, 
                     and risk management without building everything from scratch.
                   </p>
@@ -105,39 +100,45 @@ const WhiteLabelSolutionsPage = () => {
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="bg-white p-10 shadow-lg hover:shadow-xl transition-all duration-300">
               <div className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-gray-100 mb-6">
-                  <span className="text-2xl font-bold text-gray-600">1</span>
+                <div className="inline-flex items-center justify-center w-20 h-20 mb-8 rounded-full">
+                  <span className="text-4xl font-black text-gray-700 tracking-tight">1</span>
                 </div>
-                <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">Reach Out to Us</h3>
-                <p className="text-gray-600">
+                <h3 className="text-2xl font-display font-bold text-gray-900 mb-6 tracking-tight leading-tight">
+                  Reach Out to Us
+                </h3>
+                <p className="text-gray-600 text-lg leading-relaxed font-medium">
                   Get in touch with our team to discuss your white label requirements. 
                   We'll work with you to understand your business needs and goals.
                 </p>
               </div>
             </div>
 
-            <div className="bg-white p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="bg-white p-10 shadow-lg hover:shadow-xl transition-all duration-300">
               <div className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-gray-100 mb-6">
-                  <span className="text-2xl font-bold text-gray-600">2</span>
+                <div className="inline-flex items-center justify-center w-20 h-20 mb-8 rounded-full">
+                  <span className="text-4xl font-black text-gray-700 tracking-tight">2</span>
                 </div>
-                <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">Consultation</h3>
-                <p className="text-gray-600">
+                <h3 className="text-2xl font-display font-bold text-gray-900 mb-6 tracking-tight leading-tight">
+                  Consultation
+                </h3>
+                <p className="text-gray-600 text-lg leading-relaxed font-medium">
                   Our experts discuss your specific needs and 
                   create a customized solution that fits your business model and requirements.
                 </p>
               </div>
             </div>
 
-            <div className="bg-blue-600 p-8 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+            <div className="bg-blue-600 p-10 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
               <div className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-white/20 mb-6">
-                  <span className="text-2xl font-bold">3</span>
+                <div className="inline-flex items-center justify-center w-20 h-20 mb-8 rounded-full">
+                  <span className="text-4xl font-black text-white tracking-tight">3</span>
                 </div>
-                <h3 className="text-xl font-heading font-bold mb-4">Delivery</h3>
-                <p className="text-blue-100">
+                <h3 className="text-2xl font-display font-bold mb-6 tracking-tight leading-tight">
+                  Delivery
+                </h3>
+                <p className="text-blue-100 text-lg leading-relaxed font-medium">
                   We deliver your fully customized white label solution 
                   with your branding, ready to launch and start serving your merchants.
                 </p>
@@ -228,7 +229,7 @@ const WhiteLabelSolutionsPage = () => {
             to="/contact" 
             className="inline-block bg-blue-600 text-white px-8 py-4 font-bold hover:bg-blue-700 transition-all duration-300 shadow-xl text-lg"
           >
-            GET STARTED
+            CONTACT US
           </Link>
         </div>
       </section>
@@ -243,7 +244,7 @@ const WhiteLabelSolutionsPage = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 shadow-lg hover:shadow-xl transition-all duration-300">
               <div className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-100 mb-4">
+                <div className="inline-flex items-center justify-center w-16 h-16 mb-4">
                   <span className="text-3xl">🚀</span>
                 </div>
                 <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Fast Time to Market</h3>
@@ -255,7 +256,7 @@ const WhiteLabelSolutionsPage = () => {
 
             <div className="bg-white p-8 shadow-lg hover:shadow-xl transition-all duration-300">
               <div className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-green-100 mb-4">
+                <div className="inline-flex items-center justify-center w-16 h-16 mb-4">
                   <span className="text-3xl">💰</span>
                 </div>
                 <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Cost Effective</h3>
@@ -267,7 +268,7 @@ const WhiteLabelSolutionsPage = () => {
 
             <div className="bg-white p-8 shadow-lg hover:shadow-xl transition-all duration-300">
               <div className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-purple-100 mb-4">
+                <div className="inline-flex items-center justify-center w-16 h-16 mb-4">
                   <span className="text-3xl">🔧</span>
                 </div>
                 <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Full Customization</h3>

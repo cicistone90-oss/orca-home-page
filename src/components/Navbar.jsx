@@ -17,7 +17,7 @@ const Navbar = () => {
         { name: 'Chargeback Alerts', path: '/products/chargeback-alerts' },
         { name: 'VAMP Monitor', path: '/products/vamp-monitor' },
         { name: 'Transaction Risk Tool API', path: '/products/transaction-risk-tool' },
-        { name: 'Payment Gateway', path: '/products#payment-gateway' },
+        { name: 'Payment Gateway', path: '/products/payment-gateway' },
         { name: 'White Label Solutions', path: '/products/white-label-solutions' }
       ]
     },
@@ -123,9 +123,8 @@ const Navbar = () => {
 
           {/* Right Side - Contact Us */}
           <div className="hidden md:flex items-center space-x-4">
-            <Link to="/contact" className="bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-500 text-white px-6 py-2 font-medium hover:from-blue-700 hover:via-purple-700 hover:to-cyan-600 transition-all duration-300 shadow-lg hover:shadow-xl hover:shadow-cyan-500/25 relative overflow-hidden group">
+            <Link to="/contact" className="bg-blue-600 text-white px-6 py-2 font-medium hover:bg-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl relative overflow-hidden group">
               <span className="relative z-10">Contact Us</span>
-              <div className="absolute inset-0 bg-gradient-to-r from-cyan-600 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </Link>
           </div>
 
@@ -196,7 +195,7 @@ const Navbar = () => {
                   </Link>
                 )
               ))}
-              <Link to="/contact" className="w-full mt-4 bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-500 text-white px-6 py-2 font-medium hover:from-blue-700 hover:via-purple-700 hover:to-cyan-600 transition-all duration-300 shadow-lg block text-center">
+              <Link to="/contact" className="w-full mt-4 bg-blue-600 text-white px-6 py-2 font-medium hover:bg-blue-700 transition-all duration-300 shadow-lg block text-center">
                 Contact Us
               </Link>
             </div>

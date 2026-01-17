@@ -16,7 +16,7 @@ const OrcaFeatures = () => {
     {
       icon: (
         <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/>
+          <path d="M17.81 4.47c-.08 0-.16-.02-.23-.06C15.66 3.42 14 3 12.01 3c-1.98 0-3.86.47-5.57 1.41-.24.13-.54.04-.68-.2-.13-.24-.04-.55.2-.68C7.82 2.52 9.86 2 12.01 2c2.13 0 3.99.47 6.03 1.52.25.13.34.43.21.67-.09.18-.26.28-.44.28zM3.5 9.72c-.1 0-.2-.03-.29-.09-.23-.16-.28-.47-.12-.7.99-1.4 2.25-2.5 3.75-3.27C9.98 4.04 14 4.03 17.15 5.65c1.5.77 2.76 1.86 3.75 3.25.16.22.11.54-.12.7-.23.16-.54.11-.7-.12-.9-1.26-2.04-2.25-3.39-2.94-2.87-1.47-6.54-1.47-9.4.01-1.36.7-2.5 1.7-3.4 2.96-.08.14-.23.21-.39.21zm6.25 12.07c-.13 0-.26-.05-.35-.15-.87-.87-1.34-1.43-2.01-2.64-.69-1.23-1.05-2.73-1.05-4.34 0-2.97 2.54-5.39 5.66-5.39s5.66 2.42 5.66 5.39c0 1.61-.36 3.11-1.05 4.34-.67 1.21-1.14 1.77-2.01 2.64-.18.18-.47.18-.65 0-.87-.87-1.33-1.43-2.01-2.64-.69-1.23-1.05-2.73-1.05-4.34 0-1.9 1.37-3.39 2.96-3.39s2.96 1.49 2.96 3.39c0 1.61-.36 3.11-1.05 4.34-.67 1.21-1.14 1.77-2.01 2.64-.09.1-.22.15-.35.15z"/>
         </svg>
       ),
       title: "3D Secure",
@@ -39,10 +39,10 @@ const OrcaFeatures = () => {
     <section className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6">
             OrcaPay Advanced Features
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto font-light leading-relaxed">
             Comprehensive payment protection solutions designed to minimize chargebacks and maximize security
           </p>
         </div>
@@ -65,11 +65,11 @@ const OrcaFeatures = () => {
                   {feature.icon}
                 </div>
                 
-                <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4">
+                <h3 className="text-2xl md:text-3xl font-bold mb-4 md:mb-5">
                   {feature.title}
                 </h3>
                 
-                <p className="text-white/90 leading-relaxed text-sm md:text-base">
+                <p className="text-white/90 leading-relaxed text-base md:text-lg font-light">
                   {feature.description}
                 </p>
               </div>
@@ -80,10 +80,10 @@ const OrcaFeatures = () => {
         {/* Call to Action */}
         <div className="text-center mt-16">
           <div className="bg-white rounded-2xl shadow-xl p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">
+            <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900 mb-4">
               Ready to Protect Your Business?
             </h3>
-            <p className="text-gray-600 mb-6">
+            <p className="text-lg md:text-xl text-gray-600 mb-6 font-light leading-relaxed">
               Join thousands of businesses that trust OrcaPay to reduce chargebacks and secure their payments.
             </p>
             <Link 

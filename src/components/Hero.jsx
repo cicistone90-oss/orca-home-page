@@ -98,7 +98,7 @@ const Hero = () => {
                 to="/contact" 
                 className="border-2 border-white/30 text-white px-6 md:px-8 py-3 md:py-4 rounded-lg font-semibold hover:bg-white/10 hover:border-white/50 transition-all duration-300 backdrop-blur-sm text-center"
               >
-                Learn More
+                Contact Us
               </Link>
             </div>
 

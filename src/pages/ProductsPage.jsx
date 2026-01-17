@@ -101,7 +101,7 @@ const ProductsPage = () => {
               className="bg-gray-800/50 backdrop-blur-md rounded-xl p-8 border border-cyan-500/30 scroll-mt-24"
             >
               <div className="flex items-start gap-6">
-                <div className="flex-shrink-0 w-16 h-16 bg-cyan-500/20 rounded-lg flex items-center justify-center">
+                <div className="w-16 h-16 rounded-lg flex items-center justify-center flex-shrink-0">
                   <span className="text-3xl">{product.icon}</span>
                 </div>
                 <div className="flex-1">

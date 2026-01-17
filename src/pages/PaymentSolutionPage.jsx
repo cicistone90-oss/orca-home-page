@@ -85,12 +85,7 @@ const PaymentSolutionPage = () => {
               services from merchant matching to application consulting, helping you navigate the 
               complex world of payment processing.
             </p>
-            <Link 
-              to="/contact" 
-              className="inline-block bg-blue-600 text-white px-8 py-3 font-medium hover:bg-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl"
-            >
-              GET STARTED
-            </Link>
+
           </div>
         </div>
       </section>
@@ -116,8 +111,8 @@ const PaymentSolutionPage = () => {
                 className="bg-gray-50 p-8 hover:shadow-lg transition-all duration-300 scroll-mt-24"
               >
                 <div className="flex items-start gap-6">
-                  <div className="flex-shrink-0 w-16 h-16 bg-blue-100 flex items-center justify-center">
-                    <span className="text-3xl">{solution.icon}</span>
+                  <div className="flex-shrink-0 w-16 h-16 flex items-center justify-center">
+                    <span className="text-4xl">{solution.icon}</span>
                   </div>
                   <div className="flex-1">
                     <div className="flex items-center gap-4 mb-4">
@@ -138,7 +133,7 @@ const PaymentSolutionPage = () => {
                         to={solution.pageLink}
                         className="inline-block bg-blue-600 text-white px-6 py-3 font-medium hover:bg-blue-700 transition-all duration-300"
                       >
-                        Learn More
+                        Contact Us
                       </Link>
                     ) : (
                       <Link 
@@ -168,8 +163,8 @@ const PaymentSolutionPage = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 shadow-lg hover:shadow-xl transition-all duration-300">
               <div className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-100 mb-6">
-                  <span className="text-3xl">🌍</span>
+                <div className="inline-flex items-center justify-center w-16 h-16 mb-6">
+                  <span className="text-4xl">🌍</span>
                 </div>
                 <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Global Expertise</h3>
                 <p className="text-gray-600">
@@ -180,8 +175,8 @@ const PaymentSolutionPage = () => {
 
             <div className="bg-white p-8 shadow-lg hover:shadow-xl transition-all duration-300">
               <div className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-green-100 mb-6">
-                  <span className="text-3xl">🎯</span>
+                <div className="inline-flex items-center justify-center w-16 h-16 mb-6">
+                  <span className="text-4xl">🎯</span>
                 </div>
                 <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Tailored Solutions</h3>
                 <p className="text-gray-600">
@@ -192,8 +187,8 @@ const PaymentSolutionPage = () => {
 
             <div className="bg-white p-8 shadow-lg hover:shadow-xl transition-all duration-300">
               <div className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-purple-100 mb-6">
-                  <span className="text-3xl">🤝</span>
+                <div className="inline-flex items-center justify-center w-16 h-16 mb-6">
+                  <span className="text-4xl">🤝</span>
                 </div>
                 <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Dedicated Support</h3>
                 <p className="text-gray-600">

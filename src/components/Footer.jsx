@@ -29,9 +29,11 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Products</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">OrcaPay Gateway</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">OrcaPay Shield</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">OrcaPay Connect</a></li>
+              <li><Link to="/products/chargeback-alerts" className="text-gray-400 hover:text-white transition-colors">Chargeback Alerts</Link></li>
+              <li><Link to="/products/vamp-monitor" className="text-gray-400 hover:text-white transition-colors">VAMP Monitor</Link></li>
+              <li><Link to="/products/transaction-risk-tool" className="text-gray-400 hover:text-white transition-colors">Transaction Risk Tool API</Link></li>
+              <li><Link to="/products/payment-gateway" className="text-gray-400 hover:text-white transition-colors">Payment Gateway</Link></li>
+              <li><Link to="/products/white-label-solutions" className="text-gray-400 hover:text-white transition-colors">White Label Solutions</Link></li>
             </ul>
           </div>
         </div>

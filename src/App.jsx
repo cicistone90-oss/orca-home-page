@@ -14,6 +14,7 @@ import ChargebackAlertsPage from './pages/ChargebackAlertsPage.jsx';
 import VampMonitorPage from './pages/VampMonitorPage.jsx';
 import TransactionRiskToolPage from './pages/TransactionRiskToolPage.jsx';
 import WhiteLabelSolutionsPage from './pages/WhiteLabelSolutionsPage.jsx';
+import PaymentGatewayPage from './pages/PaymentGatewayPage.jsx';
 import HighRiskMerchantPage from './pages/HighRiskMerchantPage.jsx';
 import AcquirersMatchingPage from './pages/AcquirersMatchingPage.jsx';
 import ReferralServicesPage from './pages/ReferralServicesPage.jsx';
@@ -32,6 +33,7 @@ function App() {
           <Route path="/products/vamp-monitor" element={<VampMonitorPage />} />
           <Route path="/products/transaction-risk-tool" element={<TransactionRiskToolPage />} />
           <Route path="/products/white-label-solutions" element={<WhiteLabelSolutionsPage />} />
+          <Route path="/products/payment-gateway" element={<PaymentGatewayPage />} />
           <Route path="/products/:section" element={<ProductsPage />} />
           <Route path="/payment-solution" element={<PaymentSolutionPage />} />
           <Route path="/payment-solution/acquirers-matching" element={<AcquirersMatchingPage />} />

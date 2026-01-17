@@ -11,58 +11,18 @@ const TransactionRiskToolPage = () => {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-gray-50 to-blue-50 pt-24 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <div className="text-sm font-medium text-blue-600 mb-4 uppercase tracking-wide">
-                ORCA PRODUCT
-              </div>
-              <h1 className="text-5xl font-display font-bold text-gray-900 mb-6">
-                Orca's<br />Transaction<br />Risk Tool
-              </h1>
-              <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Orca's Transaction Risk Tool provides real-time fraud detection and risk assessment 
-                for every transaction. Our cloud-based scoring solution helps you make intelligent, 
-                real-time decisions about transaction risk levels as they are submitted for authorization.
-              </p>
-              <Link 
-                to="/contact" 
-                className="inline-block bg-blue-600 text-white px-8 py-3 font-medium hover:bg-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl"
-              >
-                GET STARTED
-              </Link>
+          <div className="text-center max-w-4xl mx-auto">
+            <div className="text-sm font-medium text-blue-600 mb-4 uppercase tracking-wide">
+              ORCA PRODUCT
             </div>
-            <div className="relative">
-              <div className="bg-white shadow-2xl border border-gray-200 p-6">
-                <div className="aspect-[4/3] bg-gradient-to-br from-blue-50 to-white flex items-center justify-center relative">
-                  {/* Dashboard mockup */}
-                  <div className="w-full h-full relative">
-                    <div className="absolute top-4 left-4 right-4">
-                      <div className="flex gap-2 mb-4">
-                        <div className="w-3 h-3 bg-red-400"></div>
-                        <div className="w-3 h-3 bg-yellow-400"></div>
-                        <div className="w-3 h-3 bg-green-400"></div>
-                      </div>
-                      <div className="bg-blue-600 h-20 mb-4 flex items-center justify-center">
-                        <div className="text-white text-xs">Risk Analytics</div>
-                      </div>
-                      <div className="grid grid-cols-3 gap-2 mb-4">
-                        <div className="bg-blue-500 h-12"></div>
-                        <div className="bg-blue-400 h-8"></div>
-                        <div className="bg-blue-300 h-16"></div>
-                      </div>
-                      <div className="flex justify-center">
-                        <div className="w-16 h-16 bg-blue-200 rounded-full flex items-center justify-center">
-                          <div className="w-8 h-8 bg-blue-600 rounded-full"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="text-center mt-4">
-                  <div className="text-xs text-gray-500">Risk Score</div>
-                </div>
-              </div>
-            </div>
+            <h1 className="text-5xl font-display font-bold text-gray-900 mb-6">
+              Orca's Transaction Risk Tool
+            </h1>
+            <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+              Orca's Transaction Risk Tool provides real-time fraud detection and risk assessment 
+              for every transaction. Our cloud-based scoring solution helps you make intelligent, 
+              real-time decisions about transaction risk levels as they are submitted for authorization.
+            </p>
           </div>
         </div>
       </section>
@@ -83,39 +43,39 @@ const TransactionRiskToolPage = () => {
               </p>
             </div>
             <div className="space-y-6">
-              <div className="flex items-start gap-4">
-                <div className="bg-blue-600 p-3 flex-shrink-0">
-                  <span className="text-2xl">📈</span>
+              <div className="flex items-center gap-6 mb-6">
+                <div className="w-16 h-16 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <span className="text-3xl">📈</span>
                 </div>
                 <div>
                   <h3 className="text-xl font-heading font-semibold mb-2">Accurate Predictability Rate</h3>
-                  <p className="text-gray-400">
+                  <p className="text-gray-400 leading-relaxed">
                     Advanced algorithms provide highly accurate fraud prediction with minimal false positives, 
                     ensuring legitimate transactions are approved while blocking fraudulent ones.
                   </p>
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
-                <div className="bg-green-600 p-3 flex-shrink-0">
-                  <span className="text-2xl">✅</span>
+              <div className="flex items-center gap-6 mb-6">
+                <div className="w-16 h-16 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <span className="text-3xl">✅</span>
                 </div>
                 <div>
                   <h3 className="text-xl font-heading font-semibold mb-2">Increase Approval Rates</h3>
-                  <p className="text-gray-400">
+                  <p className="text-gray-400 leading-relaxed">
                     Intelligent risk assessment reduces false declines, allowing more legitimate 
                     transactions to be approved while maintaining security standards.
                   </p>
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
-                <div className="bg-purple-600 p-3 flex-shrink-0">
-                  <span className="text-2xl">🛡️</span>
+              <div className="flex items-center gap-6">
+                <div className="w-16 h-16 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <span className="text-3xl">🛡️</span>
                 </div>
                 <div>
                   <h3 className="text-xl font-heading font-semibold mb-2">Stop Fraud Before Processing</h3>
-                  <p className="text-gray-400">
+                  <p className="text-gray-400 leading-relaxed">
                     Real-time analysis identifies and blocks fraudulent transactions before they're 
                     processed, preventing chargebacks and financial losses.
                   </p>
@@ -203,52 +163,19 @@ const TransactionRiskToolPage = () => {
 
       {/* Integration CTA */}
       <section className="bg-gray-900 py-16">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-gray-800 p-8 border border-gray-700">
-            <div className="grid md:grid-cols-2 gap-8 items-center">
-              <div className="bg-white p-6 shadow-lg">
-                <div className="aspect-[4/3] bg-gradient-to-br from-blue-50 to-white flex items-center justify-center relative">
-                  {/* Dashboard mockup */}
-                  <div className="w-full h-full relative">
-                    <div className="absolute top-2 left-2 right-2">
-                      <div className="flex gap-1 mb-2">
-                        <div className="w-2 h-2 bg-red-400"></div>
-                        <div className="w-2 h-2 bg-yellow-400"></div>
-                        <div className="w-2 h-2 bg-green-400"></div>
-                      </div>
-                      <div className="bg-blue-600 h-8 mb-2 flex items-center justify-center">
-                        <div className="text-white text-xs">Analytics</div>
-                      </div>
-                      <div className="grid grid-cols-3 gap-1 mb-2">
-                        <div className="bg-blue-500 h-4"></div>
-                        <div className="bg-blue-400 h-3"></div>
-                        <div className="bg-blue-300 h-6"></div>
-                      </div>
-                      <div className="flex justify-center">
-                        <div className="w-8 h-8 bg-blue-200 rounded-full flex items-center justify-center">
-                          <div className="w-4 h-4 bg-blue-600 rounded-full"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="text-left">
-                <h2 className="text-3xl font-display font-bold text-white mb-4">
-                  Ready to integrate the Transaction Risk Tool?
-                </h2>
-                <p className="text-gray-300 mb-6">
-                  Start protecting your business from fraud while improving approval rates with our advanced risk assessment platform.
-                </p>
-                <Link 
-                  to="/contact" 
-                  className="inline-block bg-blue-600 text-white px-8 py-3 font-medium hover:bg-blue-700 transition-all duration-300"
-                >
-                  GET STARTED
-                </Link>
-              </div>
-            </div>
-          </div>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl font-display font-bold text-white mb-4">
+            Ready to integrate the Transaction Risk Tool?
+          </h2>
+          <p className="text-gray-300 mb-6">
+            Start protecting your business from fraud while improving approval rates with our advanced risk assessment platform.
+          </p>
+          <Link 
+            to="/contact" 
+            className="inline-block bg-blue-600 text-white px-8 py-3 font-medium hover:bg-blue-700 transition-all duration-300"
+          >
+            CONTACT US
+          </Link>
         </div>
       </section>
 
@@ -262,7 +189,7 @@ const TransactionRiskToolPage = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 shadow-lg hover:shadow-xl transition-all duration-300">
               <div className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-100 mb-4">
+                <div className="inline-flex items-center justify-center w-16 h-16 mb-4">
                   <span className="text-3xl">🎯</span>
                 </div>
                 <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Precision Targeting</h3>
@@ -274,7 +201,7 @@ const TransactionRiskToolPage = () => {
 
             <div className="bg-white p-8 shadow-lg hover:shadow-xl transition-all duration-300">
               <div className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-green-100 mb-4">
+                <div className="inline-flex items-center justify-center w-16 h-16 mb-4">
                   <span className="text-3xl">⚡</span>
                 </div>
                 <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Real-Time Processing</h3>
@@ -286,7 +213,7 @@ const TransactionRiskToolPage = () => {
 
             <div className="bg-white p-8 shadow-lg hover:shadow-xl transition-all duration-300">
               <div className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-purple-100 mb-4">
+                <div className="inline-flex items-center justify-center w-16 h-16 mb-4">
                   <span className="text-3xl">🔧</span>
                 </div>
                 <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Customizable Rules</h3>

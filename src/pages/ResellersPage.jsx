@@ -24,12 +24,7 @@ const ResellersPage = () => {
               and chargeback solutions, we'd love to speak with you about our partnership 
               opportunities.
             </p>
-            <Link 
-              to="/contact" 
-              className="inline-block bg-blue-600 text-white px-8 py-3 font-medium hover:bg-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl"
-            >
-              GET STARTED
-            </Link>
+
           </div>
         </div>
       </section>
@@ -106,7 +101,7 @@ const ResellersPage = () => {
           
           <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-600 mb-6">
+              <div className="inline-flex items-center justify-center w-16 h-16 mb-6">
                 <span className="text-3xl">💰</span>
               </div>
               <h3 className="text-xl font-heading font-bold mb-3">VALUE ADDED RESELLERS</h3>
@@ -117,7 +112,7 @@ const ResellersPage = () => {
             </div>
 
             <div className="text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-green-600 mb-6">
+              <div className="inline-flex items-center justify-center w-16 h-16 mb-6">
                 <span className="text-3xl">👥</span>
               </div>
               <h3 className="text-xl font-heading font-bold mb-3">REFERRAL PARTNERS</h3>
@@ -127,7 +122,7 @@ const ResellersPage = () => {
             </div>
 
             <div className="text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-purple-600 mb-6">
+              <div className="inline-flex items-center justify-center w-16 h-16 mb-6">
                 <span className="text-3xl">🏢</span>
               </div>
               <h3 className="text-xl font-heading font-bold mb-3">ENTERPRISE PARTNERS</h3>
@@ -137,7 +132,7 @@ const ResellersPage = () => {
             </div>
 
             <div className="text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-cyan-600 mb-6">
+              <div className="inline-flex items-center justify-center w-16 h-16 mb-6">
                 <span className="text-3xl">🔧</span>
               </div>
               <h3 className="text-xl font-heading font-bold mb-3">TECHNOLOGY PARTNERS</h3>
@@ -190,7 +185,7 @@ const ResellersPage = () => {
               to="/contact" 
               className="inline-block bg-transparent border-2 border-white text-white px-8 py-4 font-bold hover:bg-white/10 transition-all duration-300 text-lg"
             >
-              Learn More
+              Contact Us
             </Link>
           </div>
         </div>

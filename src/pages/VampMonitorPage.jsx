@@ -41,68 +41,68 @@ const VampMonitorPage = () => {
           
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="flex items-start gap-3 mb-3">
-                <div className="bg-blue-100 rounded-lg p-2 flex-shrink-0">
-                  <span className="text-lg">🎯</span>
+              <div className="flex items-center gap-4 mb-4">
+                <div className="w-14 h-14 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <span className="text-2xl">🎯</span>
                 </div>
                 <h3 className="text-lg font-bold text-gray-900">Real-Time Monitoring</h3>
               </div>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-600 text-sm leading-relaxed">
                 Monitor all transactions as they happen with instant alerts and notifications for suspicious activities
               </p>
             </div>
 
             <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="flex items-start gap-3 mb-3">
-                <div className="bg-purple-100 rounded-lg p-2 flex-shrink-0">
-                  <span className="text-lg">🤖</span>
+              <div className="flex items-center gap-4 mb-4">
+                <div className="w-14 h-14 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <span className="text-2xl">🤖</span>
                 </div>
                 <h3 className="text-lg font-bold text-gray-900">AI-Powered Detection</h3>
               </div>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-600 text-sm leading-relaxed">
                 Machine learning algorithms analyze patterns and detect fraud with high accuracy and low false positives
               </p>
             </div>
 
             <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="flex items-start gap-3 mb-3">
-                <div className="bg-green-100 rounded-lg p-2 flex-shrink-0">
-                  <span className="text-lg">📈</span>
+              <div className="flex items-center gap-4 mb-4">
+                <div className="w-14 h-14 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <span className="text-2xl">📈</span>
                 </div>
                 <h3 className="text-lg font-bold text-gray-900">Advanced Analytics</h3>
               </div>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-600 text-sm leading-relaxed">
                 Comprehensive dashboards and reports provide deep insights into transaction patterns and trends
               </p>
             </div>
 
             <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="flex items-start gap-3 mb-3">
-                <div className="bg-red-100 rounded-lg p-2 flex-shrink-0">
-                  <span className="text-lg">🛡️</span>
+              <div className="flex items-center gap-4 mb-4">
+                <div className="w-14 h-14 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <span className="text-2xl">🛡️</span>
                 </div>
                 <h3 className="text-lg font-bold text-gray-900">Risk Scoring</h3>
               </div>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-600 text-sm leading-relaxed">
                 Automated risk assessment for every transaction with customizable scoring rules and thresholds
               </p>
             </div>
 
             <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="flex items-start gap-3 mb-3">
-                <div className="bg-yellow-100 rounded-lg p-2 flex-shrink-0">
-                  <span className="text-lg">⚙️</span>
+              <div className="flex items-center gap-4 mb-4">
+                <div className="w-14 h-14 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <span className="text-2xl">⚙️</span>
                 </div>
                 <h3 className="text-lg font-bold text-gray-900">Custom Rules Engine</h3>
               </div>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-600 text-sm leading-relaxed">
                 Create and manage custom rules to automatically approve, decline, or flag transactions for review
               </p>
             </div>
 
             <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
               <div className="flex items-start gap-3 mb-3">
-                <div className="bg-indigo-100 rounded-lg p-2 flex-shrink-0">
+                <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0">
                   <span className="text-lg">🔔</span>
                 </div>
                 <h3 className="text-lg font-bold text-gray-900">Instant Alerts</h3>
@@ -266,7 +266,7 @@ const VampMonitorPage = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-gradient-to-br from-blue-50 to-white rounded-xl p-8 shadow-lg border border-gray-200">
               <div className="flex items-start gap-4">
-                <div className="bg-blue-600 rounded-lg p-3 flex-shrink-0">
+                <div className="w-16 h-16 rounded-lg flex items-center justify-center flex-shrink-0">
                   <span className="text-xl">🔌</span>
                 </div>
                 <div>
@@ -295,7 +295,7 @@ const VampMonitorPage = () => {
 
             <div className="bg-gradient-to-br from-purple-50 to-white rounded-xl p-8 shadow-lg border border-gray-200">
               <div className="flex items-start gap-4">
-                <div className="bg-purple-600 rounded-lg p-3 flex-shrink-0">
+                <div className="w-16 h-16 rounded-lg flex items-center justify-center flex-shrink-0">
                   <span className="text-xl">🔗</span>
                 </div>
                 <div>
@@ -334,7 +334,7 @@ const VampMonitorPage = () => {
           
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="bg-blue-600 rounded-full w-14 h-14 flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">💰</span>
               </div>
               <h3 className="text-xl font-bold mb-3">Reduce Fraud Losses</h3>
@@ -344,7 +344,7 @@ const VampMonitorPage = () => {
             </div>
 
             <div className="text-center">
-              <div className="bg-purple-600 rounded-full w-14 h-14 flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">⚡</span>
               </div>
               <h3 className="text-xl font-bold mb-3">Increase Approval Rates</h3>
@@ -354,7 +354,7 @@ const VampMonitorPage = () => {
             </div>
 
             <div className="text-center">
-              <div className="bg-green-600 rounded-full w-14 h-14 flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">🎯</span>
               </div>
               <h3 className="text-xl font-bold mb-3">Improve Efficiency</h3>

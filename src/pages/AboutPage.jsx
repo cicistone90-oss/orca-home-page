@@ -146,7 +146,7 @@ const AboutPage = () => {
                   <div className="mb-8">
                     <h3 className="text-5xl font-bold text-gray-900 mb-3 tracking-tight">Bruce Parker</h3>
                     <div className="w-24 h-1 bg-gray-900 mb-4"></div>
-                    <div className="inline-block bg-purple-600 text-white px-4 py-1.5 font-semibold text-sm tracking-wide uppercase">
+                    <div className="inline-block bg-blue-600 text-white px-4 py-1.5 font-semibold text-sm tracking-wide uppercase">
                       Lifetime Advisor
                     </div>
                   </div>

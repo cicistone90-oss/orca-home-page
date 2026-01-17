@@ -58,11 +58,6 @@ const KeyFeatures = () => {
               <div className="flex justify-center mb-6">
                 <div className="relative">
                   {feature.icon}
-                  {/* Decorative dots around icon */}
-                  <div className="absolute -top-2 -right-2 w-3 h-3 bg-blue-200 rounded-full opacity-60"></div>
-                  <div className="absolute -bottom-2 -left-2 w-2 h-2 bg-blue-300 rounded-full opacity-40"></div>
-                  <div className="absolute top-1/2 -right-4 w-1 h-1 bg-blue-400 rounded-full opacity-80"></div>
-                  <div className="absolute top-1/4 -left-3 w-1 h-1 bg-blue-500 rounded-full opacity-60"></div>
                 </div>
               </div>
               

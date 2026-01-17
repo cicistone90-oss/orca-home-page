@@ -19,12 +19,7 @@ const ChargebackAlertsPage = () => {
               Our advanced alert system helps you prevent disputes, reduce chargeback ratios, 
               and protect your merchant account from penalties.
             </p>
-            <Link 
-              to="/contact" 
-              className="inline-block bg-blue-600 text-white px-8 py-3 font-medium hover:bg-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl"
-            >
-              Get Started
-            </Link>
+
           </div>
         </div>
       </section>
@@ -43,8 +38,8 @@ const ChargebackAlertsPage = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-gray-800 rounded-xl p-8 border border-gray-700">
               <div className="flex items-start gap-4 mb-4">
-                <div className="bg-blue-600 rounded-lg p-3">
-                  <span className="text-2xl">💳</span>
+                <div className="w-16 h-16 rounded-lg flex items-center justify-center">
+                  <span className="text-3xl">💳</span>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">CDRN (Visa/CB)</h3>
@@ -58,8 +53,8 @@ const ChargebackAlertsPage = () => {
 
             <div className="bg-gray-800 rounded-xl p-8 border border-gray-700">
               <div className="flex items-start gap-4 mb-4">
-                <div className="bg-purple-600 rounded-lg p-3">
-                  <span className="text-2xl">🔔</span>
+                <div className="w-16 h-16 rounded-lg flex items-center justify-center">
+                  <span className="text-3xl">🔔</span>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">Ethoca Alerts</h3>
@@ -100,14 +95,7 @@ const ChargebackAlertsPage = () => {
                 <span className="text-gray-700">Real-time decision tracking and reporting</span>
               </li>
             </ul>
-            <div className="mt-8">
-              <Link 
-                to="/contact" 
-                className="inline-block bg-blue-600 text-white px-6 py-3 font-medium hover:bg-blue-700 transition-all duration-300"
-              >
-                Learn More
-              </Link>
-            </div>
+
           </div>
         </div>
       </section>
@@ -142,12 +130,7 @@ const ChargebackAlertsPage = () => {
                 <span className="text-gray-700">Improve customer satisfaction</span>
               </li>
             </ul>
-            <Link 
-              to="/contact" 
-              className="inline-block bg-purple-600 text-white px-6 py-3 font-medium hover:bg-purple-700 transition-all duration-300"
-            >
-              Learn More
-            </Link>
+
           </div>
         </div>
       </section>
@@ -182,12 +165,6 @@ const ChargebackAlertsPage = () => {
                 <span className="text-gray-700">Maintain good standing with payment processors</span>
               </li>
             </ul>
-            <Link 
-              to="/contact" 
-              className="inline-block bg-blue-600 text-white px-6 py-3 font-medium hover:bg-blue-700 transition-all duration-300"
-            >
-              Learn More
-            </Link>
           </div>
         </div>
       </section>
@@ -222,12 +199,6 @@ const ChargebackAlertsPage = () => {
                 <span className="text-gray-700">Faster resolution times</span>
               </li>
             </ul>
-            <Link 
-              to="/contact" 
-              className="inline-block bg-green-600 text-white px-6 py-3 font-medium hover:bg-green-700 transition-all duration-300"
-            >
-              Learn More
-            </Link>
           </div>
         </div>
       </section>
@@ -262,12 +233,6 @@ const ChargebackAlertsPage = () => {
                 <span className="text-gray-700">Improve merchant account health</span>
               </li>
             </ul>
-            <Link 
-              to="/contact" 
-              className="inline-block bg-blue-600 text-white px-6 py-3 font-medium hover:bg-blue-700 transition-all duration-300"
-            >
-              Learn More
-            </Link>
           </div>
         </div>
       </section>
@@ -285,7 +250,7 @@ const ChargebackAlertsPage = () => {
             to="/contact" 
             className="inline-block bg-white text-blue-600 px-8 py-4 font-bold hover:bg-gray-100 transition-all duration-300 shadow-xl text-lg"
           >
-            Get Started Now
+            Contact Us
           </Link>
         </div>
       </section>

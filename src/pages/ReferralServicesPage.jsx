@@ -22,12 +22,7 @@ const ReferralServicesPage = () => {
               We provide bidirectional referral services. Recommending suitable merchants to acquiring 
               institutions, or recommending suitable acquiring institutions to merchants.
             </p>
-            <Link 
-              to="/contact" 
-              className="inline-block bg-blue-600 text-white px-8 py-3 font-medium hover:bg-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl"
-            >
-              GET STARTED
-            </Link>
+
           </div>
         </div>
       </section>
@@ -44,8 +39,8 @@ const ReferralServicesPage = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-gray-50 p-8 hover:shadow-lg transition-all duration-300">
               <div className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-100 mb-6">
-                  <span className="text-3xl">🏢</span>
+                <div className="inline-flex items-center justify-center w-16 h-16 mb-6">
+                  <span className="text-4xl">🏢</span>
                 </div>
                 <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Merchant Referrals</h3>
                 <p className="text-gray-600">
@@ -56,8 +51,8 @@ const ReferralServicesPage = () => {
 
             <div className="bg-gray-50 p-8 hover:shadow-lg transition-all duration-300">
               <div className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-green-100 mb-6">
-                  <span className="text-3xl">🏦</span>
+                <div className="inline-flex items-center justify-center w-16 h-16 mb-6">
+                  <span className="text-4xl">🏦</span>
                 </div>
                 <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Acquirer Referrals</h3>
                 <p className="text-gray-600">
@@ -68,8 +63,8 @@ const ReferralServicesPage = () => {
 
             <div className="bg-gray-50 p-8 hover:shadow-lg transition-all duration-300">
               <div className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-purple-100 mb-6">
-                  <span className="text-3xl">🤝</span>
+                <div className="inline-flex items-center justify-center w-16 h-16 mb-6">
+                  <span className="text-4xl">🤝</span>
                 </div>
                 <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Professional Support</h3>
                 <p className="text-gray-600">

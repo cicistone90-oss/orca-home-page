@@ -23,12 +23,7 @@ const AcquirersMatchingPage = () => {
               requirements for product category risk levels, we inform merchants which acquirers are suitable 
               for their business categories. Different acquirers accept different MCC risk levels.
             </p>
-            <Link 
-              to="/contact" 
-              className="inline-block bg-blue-600 text-white px-8 py-3 font-medium hover:bg-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl"
-            >
-              GET STARTED
-            </Link>
+
           </div>
         </div>
       </section>
