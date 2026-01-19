@@ -44,7 +44,7 @@ const WhiteLabelSolutionsPage = () => {
               </p>
             </div>
             <div className="space-y-6">
-              <div className="flex items-center gap-6 mb-6">
+              <div className="flex items-center gap-4 mb-6">
                 <div className="w-16 h-16 rounded-lg flex items-center justify-center flex-shrink-0">
                   <span className="text-3xl">⚙️</span>
                 </div>
@@ -57,7 +57,7 @@ const WhiteLabelSolutionsPage = () => {
                 </div>
               </div>
 
-              <div className="flex items-center gap-6 mb-6">
+              <div className="flex items-center gap-4 mb-6">
                 <div className="w-16 h-16 rounded-lg flex items-center justify-center flex-shrink-0">
                   <span className="text-3xl">🎯</span>
                 </div>
@@ -70,7 +70,7 @@ const WhiteLabelSolutionsPage = () => {
                 </div>
               </div>
 
-              <div className="flex items-center gap-6">
+              <div className="flex items-center gap-4">
                 <div className="w-16 h-16 rounded-lg flex items-center justify-center flex-shrink-0">
                   <span className="text-3xl">👥</span>
                 </div>
@@ -242,37 +242,37 @@ const WhiteLabelSolutionsPage = () => {
           </h2>
           
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
               <div className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 mb-4">
-                  <span className="text-3xl">🚀</span>
+                <div className="inline-flex items-center justify-center w-16 h-16 mb-6">
+                  <span className="text-4xl">🚀</span>
                 </div>
-                <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Fast Time to Market</h3>
-                <p className="text-gray-600">
+                <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">Fast Time to Market</h3>
+                <p className="text-gray-600 leading-relaxed">
                   Launch your payment processing business quickly with our proven platform and infrastructure
                 </p>
               </div>
             </div>
 
-            <div className="bg-white p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
               <div className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 mb-4">
-                  <span className="text-3xl">💰</span>
+                <div className="inline-flex items-center justify-center w-16 h-16 mb-6">
+                  <span className="text-4xl">💰</span>
                 </div>
-                <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Cost Effective</h3>
-                <p className="text-gray-600">
+                <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">Cost Effective</h3>
+                <p className="text-gray-600 leading-relaxed">
                   Reduce development costs and time by leveraging our existing technology and expertise
                 </p>
               </div>
             </div>
 
-            <div className="bg-white p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
               <div className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 mb-4">
-                  <span className="text-3xl">🔧</span>
+                <div className="inline-flex items-center justify-center w-16 h-16 mb-6">
+                  <span className="text-4xl">🔧</span>
                 </div>
-                <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Full Customization</h3>
-                <p className="text-gray-600">
+                <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">Full Customization</h3>
+                <p className="text-gray-600 leading-relaxed">
                   Complete control over branding, features, and user experience to match your business needs
                 </p>
               </div>

@@ -146,7 +146,7 @@ const HomePage = () => {
             <div className="inline-block px-6 py-3 bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20 rounded-full text-blue-600 text-sm font-medium mb-8">
               Payment Solutions
             </div>
-            <h2 className="text-5xl md:text-6xl font-extrabold text-gray-900 mb-8">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 mb-8 leading-tight">
               Professional Payment
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-600">
                 Processing Services

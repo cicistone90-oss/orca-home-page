@@ -37,37 +37,37 @@ const ReferralServicesPage = () => {
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-gray-50 p-8 hover:shadow-lg transition-all duration-300">
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
               <div className="text-center">
                 <div className="inline-flex items-center justify-center w-16 h-16 mb-6">
                   <span className="text-4xl">🏢</span>
                 </div>
-                <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Merchant Referrals</h3>
-                <p className="text-gray-600">
+                <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">Merchant Referrals</h3>
+                <p className="text-gray-600 leading-relaxed">
                   Recommend quality merchants to acquiring institutions based on their specific requirements
                 </p>
               </div>
             </div>
 
-            <div className="bg-gray-50 p-8 hover:shadow-lg transition-all duration-300">
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
               <div className="text-center">
                 <div className="inline-flex items-center justify-center w-16 h-16 mb-6">
                   <span className="text-4xl">🏦</span>
                 </div>
-                <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Acquirer Referrals</h3>
-                <p className="text-gray-600">
+                <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">Acquirer Referrals</h3>
+                <p className="text-gray-600 leading-relaxed">
                   Recommend the most suitable acquiring institutions to merchants for their business needs
                 </p>
               </div>
             </div>
 
-            <div className="bg-gray-50 p-8 hover:shadow-lg transition-all duration-300">
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
               <div className="text-center">
                 <div className="inline-flex items-center justify-center w-16 h-16 mb-6">
                   <span className="text-4xl">🤝</span>
                 </div>
-                <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Professional Support</h3>
-                <p className="text-gray-600">
+                <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">Professional Support</h3>
+                <p className="text-gray-600 leading-relaxed">
                   Provide professional matching advice and ongoing support throughout the process
                 </p>
               </div>

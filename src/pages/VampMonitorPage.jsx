@@ -41,8 +41,8 @@ const VampMonitorPage = () => {
           
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="flex items-center gap-4 mb-4">
-                <div className="w-14 h-14 rounded-lg flex items-center justify-center flex-shrink-0">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0">
                   <span className="text-2xl">🎯</span>
                 </div>
                 <h3 className="text-lg font-bold text-gray-900">Real-Time Monitoring</h3>
@@ -53,8 +53,8 @@ const VampMonitorPage = () => {
             </div>
 
             <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="flex items-center gap-4 mb-4">
-                <div className="w-14 h-14 rounded-lg flex items-center justify-center flex-shrink-0">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0">
                   <span className="text-2xl">🤖</span>
                 </div>
                 <h3 className="text-lg font-bold text-gray-900">AI-Powered Detection</h3>
@@ -65,8 +65,8 @@ const VampMonitorPage = () => {
             </div>
 
             <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="flex items-center gap-4 mb-4">
-                <div className="w-14 h-14 rounded-lg flex items-center justify-center flex-shrink-0">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0">
                   <span className="text-2xl">📈</span>
                 </div>
                 <h3 className="text-lg font-bold text-gray-900">Advanced Analytics</h3>
@@ -77,8 +77,8 @@ const VampMonitorPage = () => {
             </div>
 
             <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="flex items-center gap-4 mb-4">
-                <div className="w-14 h-14 rounded-lg flex items-center justify-center flex-shrink-0">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0">
                   <span className="text-2xl">🛡️</span>
                 </div>
                 <h3 className="text-lg font-bold text-gray-900">Risk Scoring</h3>
@@ -89,8 +89,8 @@ const VampMonitorPage = () => {
             </div>
 
             <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="flex items-center gap-4 mb-4">
-                <div className="w-14 h-14 rounded-lg flex items-center justify-center flex-shrink-0">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0">
                   <span className="text-2xl">⚙️</span>
                 </div>
                 <h3 className="text-lg font-bold text-gray-900">Custom Rules Engine</h3>
@@ -101,13 +101,13 @@ const VampMonitorPage = () => {
             </div>
 
             <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="flex items-start gap-3 mb-3">
+              <div className="flex items-center gap-3 mb-4">
                 <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <span className="text-lg">🔔</span>
+                  <span className="text-2xl">🔔</span>
                 </div>
                 <h3 className="text-lg font-bold text-gray-900">Instant Alerts</h3>
               </div>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-600 text-sm leading-relaxed">
                 Receive immediate notifications via email, SMS, or webhook when suspicious activity is detected
               </p>
             </div>
@@ -334,31 +334,31 @@ const VampMonitorPage = () => {
           
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">💰</span>
+              <div className="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 bg-gradient-to-br from-blue-500 to-blue-600 shadow-lg">
+                <span className="text-3xl">💰</span>
               </div>
-              <h3 className="text-xl font-bold mb-3">Reduce Fraud Losses</h3>
-              <p className="text-gray-300">
+              <h3 className="text-xl font-bold mb-4">Reduce Fraud Losses</h3>
+              <p className="text-gray-300 leading-relaxed">
                 Prevent fraudulent transactions before they're processed, saving your business from chargebacks and losses
               </p>
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">⚡</span>
+              <div className="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 bg-gradient-to-br from-green-500 to-green-600 shadow-lg">
+                <span className="text-3xl">⚡</span>
               </div>
-              <h3 className="text-xl font-bold mb-3">Increase Approval Rates</h3>
-              <p className="text-gray-300">
+              <h3 className="text-xl font-bold mb-4">Increase Approval Rates</h3>
+              <p className="text-gray-300 leading-relaxed">
                 Reduce false positives and approve more legitimate transactions with intelligent risk scoring
               </p>
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">🎯</span>
+              <div className="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 bg-gradient-to-br from-purple-500 to-purple-600 shadow-lg">
+                <span className="text-3xl">🎯</span>
               </div>
-              <h3 className="text-xl font-bold mb-3">Improve Efficiency</h3>
-              <p className="text-gray-300">
+              <h3 className="text-xl font-bold mb-4">Improve Efficiency</h3>
+              <p className="text-gray-300 leading-relaxed">
                 Automate fraud detection and risk management, freeing up your team to focus on growth
               </p>
             </div>

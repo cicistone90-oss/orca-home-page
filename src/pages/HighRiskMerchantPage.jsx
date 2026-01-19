@@ -57,39 +57,39 @@ const HighRiskMerchantPage = () => {
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-gray-50 p-8 hover:shadow-lg transition-all duration-300">
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
               <div className="text-center">
                 <div className="inline-flex items-center justify-center w-16 h-16 mb-6">
                   <span className="text-4xl">📋</span>
                 </div>
-                <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Compliance Guidance</h3>
-                <p className="text-gray-600">
+                <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">Compliance Guidance</h3>
+                <p className="text-gray-600 leading-relaxed">
                   Professional compliance consulting services to ensure your business meets regulatory 
                   requirements in different regions and reduces compliance risks
                 </p>
               </div>
             </div>
 
-            <div className="bg-gray-50 p-8 hover:shadow-lg transition-all duration-300">
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
               <div className="text-center">
                 <div className="inline-flex items-center justify-center w-16 h-16 mb-6">
                   <span className="text-4xl">📄</span>
                 </div>
-                <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Application Material Preparation</h3>
-                <p className="text-gray-600">
+                <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">Application Material Preparation</h3>
+                <p className="text-gray-600 leading-relaxed">
                   Assist in preparing complete and accurate application materials to improve approval 
                   rates and shorten application cycles
                 </p>
               </div>
             </div>
 
-            <div className="bg-gray-50 p-8 hover:shadow-lg transition-all duration-300">
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
               <div className="text-center">
                 <div className="inline-flex items-center justify-center w-16 h-16 mb-6">
                   <span className="text-4xl">⚡</span>
                 </div>
-                <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Efficient Application Process</h3>
-                <p className="text-gray-600">
+                <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">Efficient Application Process</h3>
+                <p className="text-gray-600 leading-relaxed">
                   Leverage our industry relationships and professional experience to quickly and 
                   efficiently apply for suitable merchant accounts (MID) for you
                 </p>
@@ -198,41 +198,41 @@ const HighRiskMerchantPage = () => {
           
           <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-600 text-white font-bold text-xl mb-6">
+              <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 text-white font-bold text-2xl mb-6 rounded-full shadow-lg">
                 1
               </div>
-              <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Business Assessment</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">Business Assessment</h3>
+              <p className="text-gray-600 leading-relaxed">
                 In-depth understanding of your business model, risk level, and special requirements
               </p>
             </div>
 
             <div className="text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-green-600 text-white font-bold text-xl mb-6">
+              <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 text-white font-bold text-2xl mb-6 rounded-full shadow-lg">
                 2
               </div>
-              <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Solution Customization</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">Solution Customization</h3>
+              <p className="text-gray-600 leading-relaxed">
                 Based on assessment results, customize the most suitable payment solution for you
               </p>
             </div>
 
             <div className="text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-purple-600 text-white font-bold text-xl mb-6">
+              <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 text-white font-bold text-2xl mb-6 rounded-full shadow-lg">
                 3
               </div>
-              <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Material Preparation</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">Material Preparation</h3>
+              <p className="text-gray-600 leading-relaxed">
                 Assist in preparing complete application materials to ensure compliance with acquiring institution requirements
               </p>
             </div>
 
             <div className="text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-cyan-600 text-white font-bold text-xl mb-6">
+              <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-cyan-500 to-cyan-600 text-white font-bold text-2xl mb-6 rounded-full shadow-lg">
                 4
               </div>
-              <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Quick Launch</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">Quick Launch</h3>
+              <p className="text-gray-600 leading-relaxed">
                 Efficiently handle the application process to help you quickly obtain merchant accounts and start accepting payments
               </p>
             </div>

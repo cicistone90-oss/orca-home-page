@@ -187,37 +187,37 @@ const TransactionRiskToolPage = () => {
           </h2>
           
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
               <div className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 mb-4">
-                  <span className="text-3xl">🎯</span>
+                <div className="inline-flex items-center justify-center w-16 h-16 mb-6">
+                  <span className="text-4xl">🎯</span>
                 </div>
-                <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Precision Targeting</h3>
-                <p className="text-gray-600">
+                <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">Precision Targeting</h3>
+                <p className="text-gray-600 leading-relaxed">
                   Advanced algorithms precisely identify fraudulent transactions while minimizing false positives
                 </p>
               </div>
             </div>
 
-            <div className="bg-white p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
               <div className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 mb-4">
-                  <span className="text-3xl">⚡</span>
+                <div className="inline-flex items-center justify-center w-16 h-16 mb-6">
+                  <span className="text-4xl">⚡</span>
                 </div>
-                <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Real-Time Processing</h3>
-                <p className="text-gray-600">
+                <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">Real-Time Processing</h3>
+                <p className="text-gray-600 leading-relaxed">
                   Instant risk assessment and decision-making for every transaction as it happens
                 </p>
               </div>
             </div>
 
-            <div className="bg-white p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
               <div className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 mb-4">
-                  <span className="text-3xl">🔧</span>
+                <div className="inline-flex items-center justify-center w-16 h-16 mb-6">
+                  <span className="text-4xl">🔧</span>
                 </div>
-                <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Customizable Rules</h3>
-                <p className="text-gray-600">
+                <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">Customizable Rules</h3>
+                <p className="text-gray-600 leading-relaxed">
                   Flexible rule engine allows you to customize risk thresholds and actions based on your business needs
                 </p>
               </div>

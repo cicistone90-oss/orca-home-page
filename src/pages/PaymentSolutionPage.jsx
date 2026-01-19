@@ -103,14 +103,14 @@ const PaymentSolutionPage = () => {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 gap-10">
             {solutions.map((solution, index) => (
               <div
                 key={solution.id}
                 id={solution.id}
-                className="bg-gray-50 p-8 hover:shadow-lg transition-all duration-300 scroll-mt-24"
+                className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 scroll-mt-24 border border-gray-100"
               >
-                <div className="flex items-start gap-6">
+                <div className="flex items-start gap-4">
                   <div className="flex-shrink-0 w-16 h-16 flex items-center justify-center">
                     <span className="text-4xl">{solution.icon}</span>
                   </div>
@@ -119,26 +119,26 @@ const PaymentSolutionPage = () => {
                       <span className="text-2xl font-bold text-blue-600">{index + 1}.</span>
                       <h3 className="text-2xl font-heading font-bold text-gray-900">{solution.title}</h3>
                     </div>
-                    <p className="text-gray-600 mb-6 leading-relaxed">{solution.description}</p>
-                    <div className="space-y-3 mb-6">
+                    <p className="text-gray-600 mb-6 leading-relaxed text-lg">{solution.description}</p>
+                    <div className="space-y-4 mb-8">
                       {solution.details.map((detail, idx) => (
                         <div key={idx} className="flex items-start gap-3">
-                          <span className="text-blue-600 mt-1">•</span>
-                          <span className="text-gray-700">{detail}</span>
+                          <span className="text-blue-600 mt-1 text-lg">•</span>
+                          <span className="text-gray-700 leading-relaxed">{detail}</span>
                         </div>
                       ))}
                     </div>
                     {solution.hasPage ? (
                       <Link 
                         to={solution.pageLink}
-                        className="inline-block bg-blue-600 text-white px-6 py-3 font-medium hover:bg-blue-700 transition-all duration-300"
+                        className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-blue-700 transition-all duration-300 shadow-md hover:shadow-lg"
                       >
-                        Contact Us
+                        Learn More
                       </Link>
                     ) : (
                       <Link 
                         to="/contact"
-                        className="inline-block bg-blue-600 text-white px-6 py-3 font-medium hover:bg-blue-700 transition-all duration-300"
+                        className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-blue-700 transition-all duration-300 shadow-md hover:shadow-lg"
                       >
                         Contact Us
                       </Link>
@@ -161,37 +161,37 @@ const PaymentSolutionPage = () => {
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
               <div className="text-center">
                 <div className="inline-flex items-center justify-center w-16 h-16 mb-6">
                   <span className="text-4xl">🌍</span>
                 </div>
-                <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Global Expertise</h3>
-                <p className="text-gray-600">
+                <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">Global Expertise</h3>
+                <p className="text-gray-600 leading-relaxed">
                   Extensive experience in global payment markets with deep understanding of regional requirements
                 </p>
               </div>
             </div>
 
-            <div className="bg-white p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
               <div className="text-center">
                 <div className="inline-flex items-center justify-center w-16 h-16 mb-6">
                   <span className="text-4xl">🎯</span>
                 </div>
-                <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Tailored Solutions</h3>
-                <p className="text-gray-600">
+                <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">Tailored Solutions</h3>
+                <p className="text-gray-600 leading-relaxed">
                   Customized payment solutions designed to meet your specific business needs and risk profile
                 </p>
               </div>
             </div>
 
-            <div className="bg-white p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
               <div className="text-center">
                 <div className="inline-flex items-center justify-center w-16 h-16 mb-6">
                   <span className="text-4xl">🤝</span>
                 </div>
-                <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Dedicated Support</h3>
-                <p className="text-gray-600">
+                <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">Dedicated Support</h3>
+                <p className="text-gray-600 leading-relaxed">
                   Professional guidance and ongoing support throughout your payment processing journey
                 </p>
               </div>
@@ -214,41 +214,41 @@ const PaymentSolutionPage = () => {
           
           <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-600 text-white font-bold text-xl mb-6">
+              <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 text-white font-bold text-2xl mb-6 rounded-full shadow-lg">
                 1
               </div>
-              <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Assessment</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">Assessment</h3>
+              <p className="text-gray-600 leading-relaxed">
                 Comprehensive evaluation of your business needs and requirements
               </p>
             </div>
 
             <div className="text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-green-600 text-white font-bold text-xl mb-6">
+              <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 text-white font-bold text-2xl mb-6 rounded-full shadow-lg">
                 2
               </div>
-              <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Matching</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">Matching</h3>
+              <p className="text-gray-600 leading-relaxed">
                 Connect you with the most suitable acquiring institutions and partners
               </p>
             </div>
 
             <div className="text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-purple-600 text-white font-bold text-xl mb-6">
+              <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 text-white font-bold text-2xl mb-6 rounded-full shadow-lg">
                 3
               </div>
-              <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Application</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">Application</h3>
+              <p className="text-gray-600 leading-relaxed">
                 Guide you through the application process with expert consulting
               </p>
             </div>
 
             <div className="text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-cyan-600 text-white font-bold text-xl mb-6">
+              <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-cyan-500 to-cyan-600 text-white font-bold text-2xl mb-6 rounded-full shadow-lg">
                 4
               </div>
-              <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">Launch</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">Launch</h3>
+              <p className="text-gray-600 leading-relaxed">
                 Support you through implementation and ongoing optimization
               </p>
             </div>
